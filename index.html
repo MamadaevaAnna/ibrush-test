@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Путь JavaScript</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/swiper-styles.css">
+</head>
+
+<body>
+
+  <main>
+
+    <section class="learning-section container">
+      <div class="main-title ">
+        <span class="main-title__line"></span>
+        <h1 class="main-title__h1">Путь JavaScript</h1>
+        <span class="main-title__line"></span>
+      </div>
+      <figure class="learning">
+        <div class="learning__img">
+          <div class="date">
+            <span class="date__day">12</span>
+            <span class="date__icon"></span>
+            <p class="date__month">Апреля</p>
+          </div>
+          <img src="./images/books.jpg" alt="" width="738" height="300">
+        </div>
+        <figcaption class="learning__caption">
+          Можно выделить три основных направления для прогресса JavaScript Middle
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="blockquote-section container">
+      <h2>Серверный JavaScript</h2>
+      <blockquote class="blockquote">
+        <p class="blockquote__text">Разработчики и клиенты часто неправильно понимают, что такое система. Они видят графический интерфейс и думают, что он и есть система. Они определяют систему в терминах графического интерфейса и считают, что должны сразу начать работу с графическим интерфейсом. Они не понимают важнейшего принципа: ввод/вывод не важен.</p>
+        <cite class="blockquote__cite">— Р. Мартин</cite>
+      </blockquote>
+
+    </section>
+
+    <section class="advertisement-section">
+      <h2 class="visually-hidden">Реклама</h2>
+      <div class="advertisement container">
+        <p class="advertisement__caption">Реклама на
+          <a href="blabla.com" target="_blank">blabla.com</a>
+        </p>
+
+        <picture>
+          <source media="(min-width: 650px)" srcset="./images/advertisement.jpg">
+          <source media="(max-width: 420px)" srcset="./images/advertisement-mobile.jpg">
+          <img class="advertisement__img" src="./images/advertisement.jpg" alt="Flowers">
+        </picture>
+      </div>
+    </section>
+
+    <section class="conclusion-section container">
+      <h2>Заключение</h2>
+      <p>Синхрония осознаёт сюжетный верлибр. Мифопорождающее текстовое устройство диссонирует лирический субъект. Абстрактное высказывание пространственно просветляет деструктивный символ. Ямб, несмотря на то, что все эти характерологические черты отсылают не к единому образу нарратора, интегрирует мифопоэтический хронотоп. Действительно, ударение приводит палимпсест. Контрапункт приводит ритм.</p>
+    </section>
+
+    <section class="reviews-section">
+      <div class="container">
+
+        <form action="#" class="reviews">
+
+          <h3>Оцените статью</h3>
+          <div class="reviews__rating star-rating">
+            <input type="radio" name="rate">
+            <input type="radio" name="rate">
+            <input type="radio" name="rate">
+            <input type="radio" name="rate">
+            <input type="radio" name="rate">
+          </div>
+
+          <h3>Добавить комментарий к книге</h3>
+
+          <div class="reviews__comment comment">
+            <div class="comment__top">
+              <div class="form-group">
+                <div class="form-group__label">
+                  <input type="text" class="form-group__input">
+                  <span class="form-group__placeholder">Имя</span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="form-group__label">
+                  <input type="text" class="form-group__input">
+                  <span class="form-group__placeholder">E-mail</span>
+                </div>
+              </div>
+
+              <div class="reviews-select select">
+                <input class="select__input" type="hidden">
+                <div class="select__head">Выберите книгу</div>
+                <ul class="select__list" style="display: none;">
+                  <li class="select__item">JavaScript ниндзя</li>
+                  <li class="select__item">Pragmatic Guide to JavaScript</li>
+                  <li class="select__item">Pro JavaScript Techniques</li>
+                  <li class="select__item">Выразительный JavaScript</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="comment__bottom">
+              <textarea class="reviews-comment-area" name="comment-area" id="comment-area" cols="30" rows="10" placeholder="Ваш отзыв"></textarea>
+
+              <button class="reviews-button">Отправить</button>
+            </div>
+          </div>
+
+        </form>
+
+      </div>
+    </section>
+
+    <section class="similar-posts-section container">
+
+      <h2>Похожие посты</h2>
+      <div class="swiper-slide-wrap">
+        <div class="swiper-container similar-posts-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="./images/similar-posts-1.jpg" alt="" width="226" height="227">
+                <h3>События жизненного цикла ReactJS</h3>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="./images/similar-posts-2.jpg" alt="" width="226" height="227">
+                <h3>CSS Grids. Полное руководство</h3>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="./images/similar-posts-3.jpg" alt="" width="226" height="227">
+                <h3>Асинхронность в JavaScript</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+      <ul class="similar-posts">
+        <li class="similar-posts__item">
+          <a href="#">
+            <img src="./images/similar-posts-1.jpg" alt="" width="226" height="227">
+            <h3>События жизненного цикла ReactJS</h3>
+          </a>
+        </li>
+        <li class="similar-posts__item">
+          <a href="#">
+            <img src="./images/similar-posts-2.jpg" alt="" width="226" height="227">
+            <h3>CSS Grids. Полное руководство</h3>
+          </a>
+        </li>
+        <li class="similar-posts__item">
+          <a href="#">
+            <img src="./images/similar-posts-3.jpg" alt="" width="226" height="227">
+            <h3>Асинхронность в JavaScript</h3>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./scripts/swiper-scripts.js"></script>
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>

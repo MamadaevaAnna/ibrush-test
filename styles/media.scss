@@ -1,0 +1,110 @@
+@media (max-width: 768px) {
+
+  .learning-section {
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+
+  .main-title {
+    grid-column-gap: 15px;
+    margin-bottom: 45px;
+
+    h1 {
+      font-size: 23px;
+    }
+
+    &__line {
+      margin-top: 13px;
+    }
+  }
+
+  h2 {
+    font-size: 23px;
+  }
+
+  .learning {
+    flex-direction: column-reverse;
+
+    &__img {
+      overflow-x: scroll;
+    }
+  }
+
+  .date {
+    display: none;
+  }
+
+  .blockquote-section {
+    padding-top: 8px;
+  }
+
+  .blockquote {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 20px;
+
+    &__cite {
+      margin-top: 24px;
+    }
+  }
+
+  .advertisement-section {
+    padding-top: 38px;
+    padding-bottom: 15px;
+  }
+
+  .conclusion-section {
+    padding-top: 23px;
+    padding-bottom: 33px;
+
+    p {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+
+  .comment {
+    margin-top: 8px;
+
+    &__top {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  .reviews-comment-area {
+    margin: 10px 0;
+  }
+
+  .reviews-button {
+    width: 100%;
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  .swiper-slide-wrap {
+    display: block;
+  }
+
+  .similar-posts-section {
+    padding-top: 26px;
+
+    h2 {
+      max-width: 280px;
+      margin: 0 auto;
+      margin-bottom: 22px;
+    }
+
+    h3 {
+      line-height: 24px;
+    }
+  }
+
+  .similar-posts {
+    display: none;
+  }
+}
+
+
+
